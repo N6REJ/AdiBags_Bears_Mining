@@ -1,27 +1,37 @@
--- AdiBags_Shadowlands_Crafting - Alchemy Database
--- Created by N6REJ character is Bearesquishy - dalaran please credit whenever.
--- Source on GitHub: https://github.com/N6REJ/AdiBags_Shadowlands_Alchemy
+-- AdiBags_Shadowlands Mining- Database
+-- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
+-- Source on GitHub: https://n6rej.github.io
 --
-local ADDON_NAME, ADDON_TABLE, addon = ...
+local addonName, addonTable, addon = ...
 
 -- Create addon table
-N = { }
-ADDON_TABLE.N = N
+local db = { }
 
--- Label to use
-N["FilterTitle"] = "Alchemy"
+db.name = "Shadowlands Mining"
+db.desc = "Mining reagents for shadowlands"
 
--- Database of items
-N["database"] = {
-	-- ID,		--Item name
-	180732,		-- Rune Etched Vial
-	183950,		-- Distilled Death Extract
-	171287,		-- Ground Death Blossom
-	171291,		-- Ground Rising Glory
-	171290,		-- Ground Marrowroot
-	171292,		-- Ground Nightshade
-	171288,		-- Ground Vigil's Torch
-	171289,		-- Ground Widowbloom
-	180457,		-- Shadestone
-	307142		-- Shadowgast Ingot
+-- Filter info
+db.Filters = {
+	["Mining"] = {
+		uiName = "Shadowlands Mining",
+		uiDesc = "Ore found in Shadowlands",
+		title = "Mining",
+		items = {
+			-- ID  = true,		--Item name
+			[171828] = true,		-- Laestrite Ore
+			[171829] = true,		-- Solenium Ore
+			[171830] = true,		-- Oxxein Ore
+			[171831] = true,		-- Phaedrum Ore
+			[171832] = true,		-- Sinvyr Ore
+			[171833] = true,		-- Elethium Ore
+			[171840] = true,		-- Porous Stone
+			[171841] = true,		-- Shaded Stone
+			[177061] = true,		-- Twilight Bark
+			[171840] = true, 		-- porous-stone
+			[171841] = true,		-- shaded-stone
+		},
+	},
 }
+
+-- now that db is populated lets pass it on.
+addonTable.db = db
