@@ -28,15 +28,6 @@ db.Filters = {
             [171841] = true -- Shaded Stone
         },
     },
-    ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Vendor Reagents",
-        uiDesc = "Reagents from vendors used in Shadowlands",
-        title = "Vendor Reagents",
-        items = {
-            -- ID    = true,    --Item name
-            [177061] = true, -- Twilight Bark
-        }
-    },
 }
 
 -- now that db is populated lets pass it on.
