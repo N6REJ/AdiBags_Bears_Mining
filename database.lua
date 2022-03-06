@@ -25,7 +25,8 @@ db.Filters = {
             [171832] = true, -- Sinvyr Ore
             [171833] = true, -- Elethium Ore
             [171840] = true, -- Porous Stone
-            [171841] = true -- Shaded Stone
+            [171841] = true, -- Shaded Stone
+            [187700] = true -- Progenium Ore
         },
     },
 }
