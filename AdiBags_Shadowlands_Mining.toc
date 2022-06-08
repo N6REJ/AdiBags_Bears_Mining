@@ -1,9 +1,10 @@
-## Interface: 90200
+## Interface: 90205
 ## Title: AdiBags-Shadowlands Mining
 ## Version: @project-version@
 ## Author: Bearesquishy
 ## X-License: MIT
 ## X-Curse-Project-ID: 446529
+## X-Wago-ID: WYK9Xl6L
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 

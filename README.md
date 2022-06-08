@@ -1,7 +1,7 @@
 # AdiBags Shadowlands Mining  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Size](https://img.shields.io/github/repo-size/N6REJ/AdiBags_Shadowlands_Mining) 
-[![Build Curse Release](https://github.com/N6REJ/AdiBags_Shadowlands_Mining/actions/workflows/action.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Shadowlands_Mining/actions/workflows/action.yml) 
+[![Build Curse Release](https://github.com/N6REJ/AdiBags_Shadowlands_Mining/actions/workflows/release.yml/badge.svg)](https://github.com/N6REJ/AdiBags_Shadowlands_Mining/actions/workflows/release.yml) 
 [![GitHub release](https://img.shields.io/github/release/N6REJ/AdiBags_Shadowlands_Mining.svg)](https://GitHub.com/N6REJ/AdiBags_Shadowlands_Mining/releases/)
 
 ![Shadowlands](https://img.shields.io/badge/Supports-Shadowlands-0B68D7)
