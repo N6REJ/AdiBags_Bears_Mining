@@ -1,4 +1,4 @@
--- AdiBags_Shadowlands Mining- Database
+-- AdiBags_Bears Mining- Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
@@ -7,14 +7,14 @@ local addonName, addonTable, addon = ...
 -- Create addon table
 local db = {}
 
-db.name = "Shadowlands Mining"
+db.name = "Bears Mining"
 db.desc = "Mining reagents for shadowlands"
 
 -- Filter info
 db.Filters = {
     ["Ore"] = {
-        uiName = "Shadowlands Mining",
-        uiDesc = "Ore found in Shadowlands",
+        uiName = "Bears Mining",
+        uiDesc = "Ore found in Bears",
         title = "Ore",
         items = {
             -- ID  = true,		--Item name
