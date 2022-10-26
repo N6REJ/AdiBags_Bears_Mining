@@ -1,5 +1,5 @@
-## Interface: 90205
-## Title: AdiBags-Shadowlands Mining
+## Interface: 100000
+## Title: AdiBags-Bears Mining
 ## Version: @project-version@
 ## Author: Bearesquishy
 ## X-License: MIT
