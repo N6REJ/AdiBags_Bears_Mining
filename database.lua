@@ -12,13 +12,13 @@ local Expansion = L["SHADOWLANDS"]
 local db = {}
 
 db.name = "Bears Mining"
-db.desc = "Mining reagents for shadowlands"
+db.desc = "Mining reagents for " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Ore"] = {
         uiName = "Bears Mining",
-        uiDesc = "Ore found in Bears",
+        uiDesc = "Ore found in " .. Expansion,
         title = "Ore",
         items = {
             -- ID  = true,		--Item name
