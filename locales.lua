@@ -1,5 +1,6 @@
 local addonName, addonTable = ...;
 
 addonTable.locales = {
-  All = "All"
+  Shadowlands = "Shadowlands",
+  Dragonflight = "DragonFlight",
 }
