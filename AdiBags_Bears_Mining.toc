@@ -1,5 +1,5 @@
 ## Interface: 100000
-## Title: AdiBags-Bears Mining
+## Title: AdiBags - Bears Mining
 ## Version: @project-version@
 ## Author: Bearesquishy
 ## X-License: MIT
@@ -8,6 +8,6 @@
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 
-locales.lua
+expansion.lua
 database.lua
 core.lua
