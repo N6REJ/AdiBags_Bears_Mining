@@ -18,7 +18,7 @@ db.desc = "Mining reagents for " .. Expansion
 -- Filter info
 db.Filters = {
     ["Ore"] = {
-        uiName = Expansion .. " Mining",
+        uiName = "Bears " .. Expansion .. " Mining",
         uiDesc = "Ore found in " .. Expansion,
         title = "Ore",
         items = {
@@ -37,4 +37,4 @@ db.Filters = {
 }
 
 -- now that db is populated lets pass it on.
-addonTable.db = db
+addonTable.Shadowlands = db
