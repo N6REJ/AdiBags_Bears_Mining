@@ -33,6 +33,7 @@ db.Filters = {
 			[190313] = true, -- Khaz'gorite Ore 2
 			[190314] = true, -- Khaz'gorite Ore 3
 			[194545] = true, -- Prismatic Ore
+			[190312] = true, -- Khaz'gorite Ore
 		}
 	}
 }
